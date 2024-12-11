@@ -1,0 +1,86 @@
+ body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        background-image: linear-gradient(#FF9500, #F28C00, #D98300, #1E1E1E);
+  /* Adicionei duas cores intermediárias para um degradê mais suave */
+  height: 120vh;
+  margin: 0;
+  padding: 0;
+      }
+
+
+      
+    .menu-icon {
+        width: 45px;
+        height: auto;
+       /* Menu
+
+Keywords: bars, navigation, hamburger
+*/
+
+position: absolute;
+left: 1.5%;
+right: 75%;
+top: 1.5%;
+bottom: 85%;
+
+
+    }
+    .olho-icon {
+        width: 20px; /* Ajuste o tamanho conforme necessário */
+        height: auto;
+        margin-left: 5px; /* Adiciona um espaço entre o texto e o ícone */
+        vertical-align: middle; /* Alinha verticalmente o ícone com o texto */
+      }
+    
+    header {
+    background-color: #1E1E1E;
+     color: #FF9500;
+ padding: 1% 0;
+ text-align: center;
+ font-size: 10px;
+ margin-top: -5px;
+ 
+}
+h1#ola-cliente {
+    color: #1E1E1E;
+}
+
+p.precisa-de-ajuda {
+    color: #1E1E1E;
+}
+    
+    h1 {
+    margin: 20px 0;
+    }
+    
+    .button-group {
+     display: flex;
+     flex-direction: column;
+    align-items: center;
+}
+    
+    .botao {
+    width: 150px;
+    padding: 15px;
+    background-color: #1E1E1E;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+     margin: 5px 0;
+     cursor: pointer;
+    text-align: center;
+    }
+    
+    .btn-primary {
+     background-color: #1E1E1E;
+        margin-top: 35px;
+    }
+    
+    .info {
+    font-size: 1.5em;
+    }
+    
+    p {
+        margin-top: 20px;
+    }
